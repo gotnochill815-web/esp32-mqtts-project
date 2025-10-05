@@ -14,22 +14,7 @@ Imagine having smart devices that can talk to each other and share their data se
 
 💾 Multiple Storage Options - SQLite for local, InfluxDB for time-series data
 
-🏗️ Project Structure
-text
-DIPLOWER-BIT-DRIVE/
-├── 📁 firmware/           # ESP32 Source Code
-│   ├── src/main.cpp      # Main device firmware
-│   ├── include/          # Configuration files
-│   └── platformio.ini    # Build configuration
-├── 📁 cloud/             # Data Processing Scripts
-│   ├── mqtt_to_sqlite.py # Stores data in SQLite database
-│   ├── mqtt_to_influx.py # Sends data to InfluxDB
-│   ├── dashboard.py      # Web interface for data
-│   ├── publish_mock.py   # Test data generator
-│   └── view_db.py        # Database viewer
-└── 📄 Configuration Files
-    ├── platformio.ini    # ESP32 build settings
-    └── wifi_config.h     # WiFi credentials (template)
+
 🛠️ Quick Start
 For ESP32 Development
 Setup Environment
