@@ -1,0 +1,30 @@
+# PlatformIO build directories
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files (contain secrets!)
+*.env
+wifi_config.h  # Keep your credentials private!
