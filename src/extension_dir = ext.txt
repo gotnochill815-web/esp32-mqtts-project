@@ -1,7 +1,0 @@
-extension_dir = "ext"
-extension=curl
-extension=mbstring
-extension=mysqli
-extension=openssl
-extension=pdo_mysql
-
